@@ -119,14 +119,14 @@ function getLinkParam() {
     }
 
     if(!document.getElementById('start_stations_input').value) {
-        document.getElementById('start_stations_input').value = '出生点';
+        document.getElementById('start_stations_input').value = '肥猫港';
     }
 
     if(!document.getElementById('end_stations_input').value) {
-        var toName = '出生点';
+        var toName = '肥猫港';
         do {
             toName = stations[Math.floor(Math.random() * stations.length)].name;
-        } while(toName == '出生点')
+        } while(toName == '肥猫港')
 
         document.getElementById('end_stations_input').value = toName;
     }
