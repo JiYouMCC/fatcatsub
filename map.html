@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+  <head>
+    <meta charset= "utf-8">
+    <meta http-equiv="X-UA-Coompatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>肥猫港地铁通</title>
+    <meta name="description" content="赞服地铁信息快速查询系统">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <h3>肥猫港地铁通</h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">路线</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="station.html">车站 <span class="badge badge-light align-top">位置查找</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="line.html">线路</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">地图 <span class="badge badge-light align-top">测试中</span><span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline">
+            <a class="github-button" href="https://github.com/JiYouMCC/zamsub" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star JiYouMCC/zamsub on GitHub">Star</a>
+            <span>&nbsp</span>
+            <a class="github-button" href="https://github.com/JiYouMCC/zamsub/issues" data-icon="octicon-issue-opened" data-size="large" data-show-count="true" aria-label="Issue JiYouMCC/zamsub on GitHub">Issue</a>
+          </form>
+        </div>
+      </nav>
+      <div class="card text-center">
+        <div id="map" class="card-body" style="overflow: auto"></div>
+        <div class="card-body text-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-outline-secondary" onclick="toggleTips()">显示/隐藏站点名称</button>
+          </div>
+        </div>
+        <div class="card-body"><a href="https://github.com/JiYouMCC/zamsub/issues" target="_blank"><button type="button" class="btn btn-link">纠错</button></a></div>
+        <div class="card-body">Power by <a href="https://pages.github.com" target="_blank">Github Page</a></div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="https://d3js.org/d3.v5.js"></script>
+  <script src="js/class.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/map.js"></script>
+</html>
