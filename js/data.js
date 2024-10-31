@@ -23,7 +23,8 @@ var subData = {
             "location": [1, 20, 500]
         },
         "秋叶原": {
-            "location": [3928, 20, -800]
+            "location": [3928, 20, -800],
+            "img": "station_qiuyeyuan.jpg"
         },
         "锻台山北麓": {
             "location": [4300, 20, -801]
